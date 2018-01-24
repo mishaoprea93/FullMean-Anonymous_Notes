@@ -1,0 +1,9 @@
+.notes {
+    width: 90%;
+    height: 15%;
+    outline: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: left;
+    color: red;
+}

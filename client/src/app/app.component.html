@@ -1,0 +1,14 @@
+<div class="wrapper">
+    <div class="header">
+        <h1>Anonymous Notes</h1>
+        <form (submit)="onSubmit()">
+            <label>Note:</label>
+            <input name="text" type="text" [(ngModel)]="text">{{text}}
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <div class="component">
+        <router-outlet></router-outlet>
+    </div>
+
+</div>
